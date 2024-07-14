@@ -222,6 +222,10 @@ class _feelingWidget extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+            Text("hello "),
+            SizedBox(height: 10,),
+
+
           Image.asset(
             image,
             height: 60,
